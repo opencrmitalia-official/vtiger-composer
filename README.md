@@ -22,8 +22,6 @@ Pre-composer days, the size of the project directory used to be very big. We wou
 
 Enter Composer – Size reduces to less than 20%? We can get away without keeping the dependencies in the project (.gitignore) and avoid version mismatches at the same time thanks to composer.lock file.
 
-sad fact – Codeigniter 3 still uses the traditional download system.
-
 > Hours of debugging
 
 The libraries or frameworks that your project uses depend on some other libraries (and the chain continues…). Possibly, the framework is using version X of a library while another library is using version Y of the same library.
